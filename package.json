@@ -1,0 +1,28 @@
+{
+  "name": "task-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "playwright install chromium firefox webkit",
+    "clean": "node -e \"for (const d of [\\\"test-results\\\",\\\"playwright-report\\\"]) require(\\\"fs\\\").rmSync(d,{recursive:true,force:true})\"",
+    "pretest": "npm run clean",
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "@types/node": "^26.6.6"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

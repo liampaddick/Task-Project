@@ -1,0 +1,13 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/downloaded-files/
+
+# NOTE: .env is intentionally NOT ignored and is committed to the repo.
+# It only contains the public Sauce Demo logins, no real secrets, so it is
+# included to let the tests run out of the box. Normally .env should be ignored.
