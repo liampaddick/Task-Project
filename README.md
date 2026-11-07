@@ -83,3 +83,6 @@ This to does not include AI recommendations as those are included in the AI vari
 As this was the hand written version of the task, my AI usage was limited aside from some issues with stale editor windows, creating this readme file and some small questions.
 
 Please see the AI version of this task for more detailed AI usage and recommendations.
+
+## Link to AI variant
+- https://github.com/liampaddick/Task-Project---AI
